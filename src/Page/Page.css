@@ -1,0 +1,26 @@
+/* 
+This will only work on desktop? Need to looking/experiment, but if so will need to come up
+with a way to get this to work this way on mobile, even if it doesn't look the same 
+*/
+
+.outerDiv {
+  padding: 10mm; 
+  background-color: rgb(245, 245, 245); 
+  width: calc(170mm); 
+  height: calc(110mm);
+}
+
+.innerDiv {
+  padding: 20mm 10mm; 
+  margin: 0px 0px 10mm; 
+  width: 150mm;
+  height: 70mm;
+  background-color: rgb(255, 255, 255);
+}
+
+.pageBody {
+  width: 100%;
+  outline: 0px; 
+  height: 100%; 
+  border: 1px dashed black;
+}

@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import Page from './Page/Page';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// Player sign in component
+// Start story component
+// Loop though players until page full
+// display player who's turn it is component
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      players: [],
+      story: []
+    }
+  }
+  
+  handleTurn() {
+    // end turn after 2 carriage returns
+  }
+
+  checkPageFull() {
+    // check if 33? lines
+  }
+
+  render () {
+    return (
+      <main className="App">
+        <Page />
+      </main>
+    );
+  }
 }
 
 export default App;
