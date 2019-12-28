@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Page from './Page/Page';
+import Header from './Header/Header';
 import './App.css';
 
 // Player sign in component
@@ -26,9 +27,12 @@ class App extends Component {
 
   render () {
     return (
-      <main className="App">
-        <Page />
-      </main>
+      <>
+        <Header />
+        <main className="App">
+          <Page />
+        </main>
+      </>
     );
   }
 }
