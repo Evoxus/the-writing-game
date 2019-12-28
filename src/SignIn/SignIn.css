@@ -1,0 +1,26 @@
+.SignIn {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Gupter', serif;
+  background-color: #0B5A97;
+  color: white;
+  font-size: 1.5em;
+  text-shadow: 1px 2px #042844;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.SignIn fieldset {
+  border: none;
+}
+
+.SignIn button {
+  margin: 5px;
+}
+
+.SignIn input {
+  margin: 5px;
+}

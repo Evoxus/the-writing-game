@@ -1,0 +1,11 @@
+.Header {
+  background-color: #0B3C61;
+  color: #EB8702;
+  margin: 0;
+  padding: 20px;
+}
+
+.Header h1 {
+  font-size: 40px;
+  font-family: 'Pacifico', cursive;
+}
