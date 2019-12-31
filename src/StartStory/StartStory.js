@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function StartStory(props) {
   return (
-    <div>
+    <button id='startStory' onClick={() => props.handleStart()}>
       StartStory
-    </div>
+    </button>
   )
 }
