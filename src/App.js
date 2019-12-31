@@ -31,17 +31,20 @@ class App extends Component {
   handleTurn = (e) => {
     e.preventDefault()
     // get two lines of text
-    console.log(e.target.storyInput)
+    
     const twoLines = e.target.storyInput.value
     // validation on two lines and not more or less
-    if(!this.inputValidation(twoLines)) {
+    
+    if(this.inputValidation(twoLines).length > 0) {
       const turn = twoLines.split('/r');
+      console.log(turn);
       this.setState({
         story: [...this.state.story, ...turn],
         whosTurn: (this.state.whosTurn + 1) % this.state.players.length
       })
     } else {
       // display error message
+      console.log(this.inputValidation(twoLines));
     }
     
     // split the two lines on CR
