@@ -17,7 +17,7 @@ export default function SignIn(props) {
       </form>
         <PlayerList className='right' playerList={props.playerList} />
       </div>
-      <StartStory />
+      <StartStory handleStart={props.handleStart}/>
     </section>
   )
 }

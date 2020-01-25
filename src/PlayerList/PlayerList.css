@@ -1,10 +1,14 @@
 .PlayerList {
   margin: 0;
+  font-size: 18px;
   padding: 5px;
   width: 250px;
   border: 2px solid #1A1AA4;
   border-radius: 5px;
   box-shadow: 1px 1px 4px #042844;
+  background-color: #0B5A97;
+  color: white;
+  font-family: 'Gupter', serif;
 }
 
 .PlayerList h3 {
